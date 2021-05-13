@@ -1,0 +1,72 @@
+
+Yesterday's Session:-
+
+Method overloading:-
+------------------------------------------------------------------------------
+Static keyword
+--------------------------------------------------------------
+
+1. int num1;
+
+non access modifiers
+
+its a class level variable.
+
+static int num;
+
+obj.num1;
+Number.num;
+
+college :1000 student 
+-------------------------------------------------------------------------------
+static {
+num1 -- not allowed 
+num
+--it will allow only static variables.
+
+}
+
+static method :-
+Student.methodname();
+
+static variable
+static block
+static Method
+static classes:- nested classes
+class A{
+
+
+static class B{
+
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

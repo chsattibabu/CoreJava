@@ -1,0 +1,21 @@
+Concepts:- 
+1. What is java ?
+2. OOPS(Object Oriented Programming)
+3. variables
+4. JVM Architecture
+5. How to compile a program.
+6. How to work with Eclipse
+7. Naming Conventions
+8. Data Types
+9. Operators
+10. Loops 
+11. Break and Continue
+12. This Key word
+13. Inheritance
+14. Polymorphism
+15. Encapsulation
+16. Collections in java
+17. Java 1.8 Features
+18. Class
+19. Object
+20. Interfaces

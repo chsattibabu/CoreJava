@@ -1,0 +1,51 @@
+Today's Session:- 
+
+
+
+JVM
+javac Helloworld.java ----Source File
+
+Helloworld.class----.class file /bytecode
+
+class Helloworld{
+
+int age;
+String name;
+int getAgeofEmp(){
+
+return age;
+}
+
+Operators in java:- 
+Compiler
+JIT Compiler----
+
+Operators:-
+Arithmetic Operators:- 
+Assignment Operators:- =,
+Bitwise Operators:- &,|,
+
+2----- 10
+3------11
+| ------11
+hashcode---
+Relational Operators:-<,<=,>,>=
+num=5;
+Ternary Operator:--------num==5?System.out.prinltn("True"):false;
+Logical Operators:- &&, ||
+int num=5;
+int num2=6
+if(num==5 && num2==5){
+
+}
+if(num==5 || num2==5){
+
+}
+
+
+
+}
+
+JVM Architecture:-
+
+

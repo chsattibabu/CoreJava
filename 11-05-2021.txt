@@ -1,0 +1,66 @@
+this key word
+---------------------------
+
+class Student{
+int stdId;
+String stdName;
+
+public Student(int stdId,String stdName){
+this.stdId=stdId;
+}
+
+}
+---------------------------------------------------------------------------
+Method over loading:-
+---------------------------------------------------------------------------
+
+Method Overloading:- Method name will be the same Signature
+ of the method will be different
+
+public Student(int stdId,String stdName){
+
+
+}
+public Student(int stdId){
+
+
+}
+
+publi String stdDetails(int stdId,String stdName){
+
+}
+
+Student std=new Student(101,"Nagesh");XXXXXXX
+
+access modifiers:-
+com.sattibabu.emp
+com.sattibabu.hr
+class A{
+protected int a;
+private String a;
+}
+class B extends A{
+
+}
+
+public ---It is accesbile through out the application 
+default --- scope --- with in the class and with in 
+the package not outside the package
+
+protected ---
+private ---- class scope
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

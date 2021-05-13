@@ -1,0 +1,23 @@
+Constuctor:-
+
+class
+
+
+Student std=new Student();
+To allocate memory to the variables and functions we will constructors.
+
+class Student{
+int stdId;
+String stdName;
+public Student(int sId,String sName){
+stdId=sId;
+stdName=sName;
+}
+public Student(){
+syso("")
+}
+
+}
+two types of Constuctors:- 
+1. Default Constructor
+2. Parameterized Constructor.

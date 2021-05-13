@@ -1,0 +1,87 @@
+-----------
+Yesterday's Session:- 
+Different types of Applications
+Desktop Applicaitons------
+Web Applicaitons-------
+Distributed Application---
+
+java SE
+JAVA EE
+JAVA ME 
+
+Java--- Object Oriented Programming
+
+java Versions 1.0
+2.0
+3.0
+4.0
+5.0 --- Major Collection API
+
+1.8--- major Changes occured
+java 1.9
+java 10
+java 11 features
+java 15 is in the market
+
+class ----Blueprint of the object which consists of Varibles and functions
+objects-----instance of that class
+
+
+class Employee{
+ int num1;
+int num2;
+void calAdd(){
+}
+
+}
+create an object:-
+
+className referenceVariable=new className();
+ Employee emp(referenceVariable)=new Employee();//instance 
+
+
+---Creating an first Application.
+public class Addition{
+
+public static void main(String args[]){
+
+
+System.out.println("Hello world");
+
+
+
+}
+
+
+}
+class Subtraction{
+
+}
+---
+Addition.java
+
+>javac Additon.java
+
+java Addition
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

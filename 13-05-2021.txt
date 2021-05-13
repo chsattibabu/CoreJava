@@ -1,0 +1,184 @@
+Yesterday's Session:
+--------------------------------------------------
+static variables
+static methods
+static block
+static classes:- 
+
+OuterClass
+
+
+InnerClass
+
+InnerClass cls=new OuterClass.InnerClass();
+--------------------------------------------------------------------------------
+Innerclass:- 
+Ananymous Innerclass
+Arrays in java:- 
+Array is sequence of elements stored either string,characters or numbers.
+
+int[] arrayname={1,2,3,4,5};
+
+int[5] arrayName;
+int arrayname[];
+
+int intarray[]=new int[20];
+
+it represnets the elements by using index
+starts with 0, length-1
+index 1-10 ends with 
+0-9
+
+for(int i=0;i<=array.length-1;i++)
+{
+
+}
+Enhanced for loop
+for(int element:array){
+
+
+}
+-----------------------------------------
+Inheritance
+--------------------------------------
+class----one class is allowed to inherit the properties of another class.
+-------------------------------------------------------------------------
+
+class A{
+
+50 variables
+40 methods
+
+}
+class B {
+
+
+
+10 methods
+20 varaibels
+
+
+50 variables
+40 methods
+
+}
+class B extends A{
+
+
+}
+single inheritance
+Hierarchial inheritance
+Multiple Inheritance
+Multilevel inheritance
+
+Single inheritance
+class A{
+
+}
+class B extends A{
+
+}
+Hierarchial inheritance:-
+class A{
+
+}
+class B extends A{
+
+}
+class c extends A{
+
+}
+-
+Multi level Inheritance
+class A{  ---Super class or Parent Class
+}
+class B extends A{-----Sub class or child class
+
+}
+class C extends B{
+}
+-------------
+Multiple Inheritance
+
+class A{
+void getDetails(){
+}
+}
+class B{
+void getDetails(){
+}
+}
+class C extends A,B{
+
+}
+
+C c=new C();
+c.getDetails();
+
+Java does not support multiple inheritance?
+why?
+
+Interfaces----
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

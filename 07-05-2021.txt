@@ -1,0 +1,73 @@
+jdk--- java development kit
+
+jre----java Runtime Environment
+jvm---- java virtual Machine
+
+
+
+Helloworld.java
+javac Helloworld.java
+Helloworld.class
+
+Variables in java
+
+
+variables are used to hold the data.
+
+int num=10;
+String nameofEmloyee="Satti Babu";
+int A;int S;
+class Student{  ---class representation
+
+
+}
+Student studentObj=new Student;
+
+interface StudentService;
+int final PI=3.14; ---with only Capital letters
+
+int _num
+int $num
+int 12num; ---not allowed
+
+------------------------------------------------------------------------------------
+data types-- Represents that what type of data you want to store .
+int num=10;
+premitive data types
+
+byte ----2 bytes ---1 byte =8 bits
+int----- 4bytes    ----Integer
+float---- 4 bytes -----Float
+char----1 byte  -----Character
+double---- 8 bytes ---- Double
+long--- 8 bytes ---- Long
+
+float num=10.2f;
+double num=10.28;
+char c='2'
+String c="23edr";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
