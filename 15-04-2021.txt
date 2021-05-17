@@ -1,0 +1,139 @@
+super key word
+class C{
+C(){
+syso("in C");
+}
+}
+class A extends C{
+A(){
+Syso(" in A");
+}
+
+}
+class B extends A{
+
+B(){
+Syso(" in B");
+}
+super.getData();
+}
+
+class mainClass{
+public static void main(String args[]){
+
+B b=new B();
+
+}
+
+}
+Dynamic Method Dispatchment:- 
+Super class reference and Subclass instance at run time.
+package com.sattibabu.corejava;
+
+class A{
+	
+	A(){
+		System.out.println("A constructor");
+	}
+	void getData() {
+		System.out.println("in A");
+	}
+	void getDetails() {
+		System.out.println("in A Details");
+	}
+	
+	void addition(Number a ,Number b) {
+		System.out.println();
+	}
+	
+}
+class B extends A{
+	B(){
+		
+		System.out.println("B constructor");
+	}
+	void getData() {
+		super.getDetails();
+		System.out.println("in B");
+	}
+	
+}
+class C extends A{
+	
+	C(){
+		System.out.println("C constructor");
+	}
+	void getData() {
+		System.out.println("in C");
+	}
+}
+
+public class InheritanceDemo {
+
+	public static void main(String args[]) {
+//		B b=new B();
+//		b.getData();
+		A a=new C();
+		//a.addition(2.6, 3.89);
+		
+		
+		
+	}
+	
+}
+
+------------------------------------------------------------------
+Encapsulation:-
+------------------------------------------------------------------
+Wrapping up of whole class data into a single unit. 
+
+package com.sattibabu.corejava;
+
+class AccountDetails{
+	private String accountNo;
+	private String name;
+	private double  balance;
+	int loginId=105;
+	
+	public String getAccountNo() {
+		return accountNo;
+	}
+	public void setAccountNo(String accountNo) {
+		this.accountNo = accountNo;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public double getBalance() {
+		return balance;
+	}
+	public void setBalance(double balance) {
+		if(loginId==101) {
+		this.balance = balance;
+		}else {
+			System.out.println("Authorization failed");
+		}
+	}
+	
+	
+}
+
+
+public class Encapsulation {
+
+	public static void main(String args[]) {
+		
+		AccountDetails acc=new AccountDetails();
+		acc.setAccountNo("125487496");
+		
+		System.out.println(acc.getAccountNo());
+		
+		acc.setBalance(78454745);
+		
+	}
+}
+
+

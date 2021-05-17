@@ -1,0 +1,67 @@
+Wrapper Classes:- 
+-------------------------------
+premitive data types:- Converiting primitive data types into Objects is nothing 
+but a wrapper classes
+
+int  ---Integer.parseInt();         
+float ----Float
+double ----Double
+long ---Long
+byte ---Byte
+char ---Character
+boolean ---Boolean
+short --- Short 
+-----------
+int ---Integer ----boxing
+Integer -int  --- unboxing
+
+char c='a'
+Character ch=(Character)c;
+AutoBoxing
+AutoUnBoxing
+
+ArrayList<Integer> arrayList=new ArrayList();
+
+int num=arrayList.get(0);
+
+Byte b=new Byte(a);
+---------------------------------------------------------------
+abstract keyword
+
+
+Abstraction :- Hiding the irrelevant data 
+to the user is nothing but Abstraction. 
+
+abstract keyword:- It is used to acheive the abstraction in java.
+It is a Non Acess Modifier. 
+Which is used to create abstract method and abstract class.
+
+If we define a method abstract then we should declare that class as abstract class 
+but if we define a class as an abstract 
+class we need not to write any abstract methods inside that class
+
+Method
+void runmethod(){
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
