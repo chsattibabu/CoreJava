@@ -1,0 +1,74 @@
+final key word:-
+--------------------------------------------------------------------
+final int num=5;
+num=6;
+
+final variable---we cant change. 
+final class ----- final class A{};
+final method ---final void get(){};
+
+method overriding
+class A{
+
+final void get(){
+
+10 lines 
+}
+}
+class B extends A{
+void get(){
+
+super.get();
+5 more lines
+}
+}
+B b=new B();
+b.get();
+-----------------------------------------------------------------
+Interface
+_----------------------------------------------------------
+
+interface InterfaceName{
+void getData(); //only signature no body. 
+
+}
+
+
+package com.sattibabu.corejava;
+interface StudentService{
+	
+	void getStudentDetails();
+}
+interface StudentService1{
+	
+	void getStudentDetails();
+}
+
+
+class StudentDetailss implements StudentService,StudentService1{
+
+	@Override
+	public void getStudentDetails() {
+		System.out.println("Hi");
+		
+	}
+	
+}
+
+public class InterfaceDemo {
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
