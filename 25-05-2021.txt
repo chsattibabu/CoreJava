@@ -1,0 +1,82 @@
+25-05-2021
+-----------------------------------------------------------------
+
+Stream API:- Series of Functions which provides the 
+functional programming to the java.
+
+for(
+for
+while
+Iterator
+
+Advantages:- 1 line
+1.Heavy usage of Lambda Expression
+2. More efficient java programmer
+3. Parllel streams multi threading
+
+List
+
+zero or more intermediate operations and 1 terminal operation
+
+Source ----->filter --->sort --->map ---->Collect
+
+API--- Application Programming Interface
+
+Collection API
+JDBC API
+Stream API
+
+Intermediate Operations:- 
+filter,map,anyMatch(),distinct(), findFirst(),flatMap(),skip(),sorted()
+
+
+
+Terminal Operation:-
+forEach(),count(),max(),min(),reduce(),summaryStatistics(). 
+
+for(int i=0;i<10;i++)
+syso(i);
+
+
+IntegerStream:-Integer.range(1,10).forEach(System.out::println);
+Integer.range(1,10).skip(5).forEach(System.out::println);
+
+Integer.range(1,10).sum();
+
+List list={"Satti", "Nani","Ganesh"};
+
+Collections.sort();
+
+String ele=list.stream().sorted().findFirst().ifPresent();
+
+list.stream().filter(x->x.name.startsWith("s")).sorted().collect(Collections.toList());
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
