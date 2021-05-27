@@ -1,0 +1,34 @@
+1. Error
+2. Exception
+
+Error
+
+sati--- Exception
+
+out of memory
+Internal Error
+
+can u handle an error ? No
+we can handle the Exception
+
+
+Throwable
+
+Exception
+
+Two Types of Exceptions:-
+1.compile time Exception ---Checked Exception,,, I/O operation, Files
+2. Runtime Exception ----unchecked Exception, ArrayIndexOutofBoundException,
+1/0 Arithmetic Exception,
+
+Exception
+
+
+
+
+
+
+
+
+
+
